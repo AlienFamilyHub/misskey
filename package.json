@@ -6,7 +6,7 @@
 		"type": "git",
 		"url": "https://github.com/misskey-dev/misskey.git"
 	},
-	"packageManager": "pnpm@10.6.1",
+	"packageManager": "yarn@4.9.0+sha512.5f5f00843eae735dfab6f0442524603e987ceca55e98b36eb0120f4e58908e5b1406545321e46627dca97d15d562f23dc13fb96cabd4e6bc92d379f619001e4e",
 	"workspaces": [
 		"packages/frontend-shared",
 		"packages/frontend",
@@ -52,16 +52,16 @@
 	},
 	"dependencies": {
 		"cssnano": "7.0.6",
+		"esbuild": "0.25.0",
 		"execa": "9.5.2",
 		"fast-glob": "3.3.3",
+		"glob": "11.0.1",
 		"ignore-walk": "7.0.0",
 		"js-yaml": "4.1.0",
 		"postcss": "8.5.3",
 		"tar": "7.4.3",
 		"terser": "5.39.0",
-		"typescript": "5.8.2",
-		"esbuild": "0.25.0",
-		"glob": "11.0.1"
+		"typescript": "5.8.2"
 	},
 	"devDependencies": {
 		"@misskey-dev/eslint-plugin": "2.1.0",
